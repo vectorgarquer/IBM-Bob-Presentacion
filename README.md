@@ -62,5 +62,6 @@ Tech Leads, desarrolladores senior y equipos de software interesados en adoptar 
 ## Recursos Adicionales
 
 - 📖 [Documentación IBM Bob](https://bob.ibm.com/docs/ide)
-- 📝 IBM Bob–Driven MCP in Practice: Concepts, Use Cases, and Building a Java Quarkus MCP Server
-- 🎯 IBM Bob Modes vs Skills: The Complete Guide to Reliable AI-Assisted Development
+- 📝 [IBM Bob–Driven MCP in Practice: Concepts, Use Cases, and Building a Java Quarkus MCP Server](https://medium.com/@victor.chequer/ibm-bob-driven-mcp-in-practice-concepts-use-cases-and-building-a-java-quarkus-mcp-server-8b43f379c051)
+- 🎯 [IBM Bob Modes vs Skills: The Complete Guide to Reliable AI-Assisted Development](https://medium.com/@victor.chequer/ibm-bob-modes-vs-skills-the-complete-guide-to-reliable-ai-assisted-development-c5d528ff4fac)
+- ✍️ [Perfil del autor en Medium](https://medium.com/@victor.chequer)
