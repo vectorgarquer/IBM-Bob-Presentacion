@@ -1050,90 +1050,7 @@
             </div>
         </div>
 
-        <!-- Slide 9: Personalización Avanzada de Bob -->
-        <div class="slide" style="justify-content: flex-start;">
-            <h2 style="margin-bottom: 12px;">Personalización Avanzada de Bob 🎨</h2>
-            <div class="highlight" style="padding: 10px 20px; margin-bottom: 12px;">
-                <h3 style="margin-bottom: 4px;">Estructura de Carpetas de Configuración</h3>
-                <p>Bob utiliza el directorio <code>~/.bob/</code> para almacenar configuraciones personalizadas que modifican su comportamiento.</p>
-            </div>
-            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 14px;">
-                <div class="card" style="padding: 16px;">
-                    <div class="icon" style="font-size: 1.6em; margin-bottom: 8px;">📋</div>
-                    <h3 style="font-size: 0.95em; margin-bottom: 6px;">~/.bob/rules/</h3>
-                    <p style="font-size: 0.82em; margin-bottom: 6px;"><strong>Custom Rules - Instrucciones Globales</strong></p>
-                    <ul style="font-size: 0.8em; margin-bottom: 8px;">
-                        <li>Archivos Markdown (<code>*.md</code>)</li>
-                        <li>Se inyectan en el system prompt</li>
-                        <li>Aplican a todos los modos</li>
-                        <li>Ejemplo: <code>concise-completion-rule.md</code></li>
-                    </ul>
-                    <div class="code-block" style="font-size: 0.72em; white-space: pre-line;">
-# my-rule.md
-## Objective
-Brief description
-
-## Rules
-1. Specific instruction
-2. Specific instruction
-                    </div>
-                </div>
-                <div class="card" style="padding: 16px;">
-                    <div class="icon" style="font-size: 1.6em; margin-bottom: 8px;">⚙️</div>
-                    <h3 style="font-size: 0.95em; margin-bottom: 6px;">~/.bob/settings/</h3>
-                    <p style="font-size: 0.82em; margin-bottom: 6px;"><strong>Configuraciones Generales</strong></p>
-                    <ul style="font-size: 0.8em; margin-bottom: 8px;">
-                        <li><code>custom_modes.yaml</code> - Define modos personalizados</li>
-                        <li><code>mcp_settings.json</code> - Configuración de MCPs</li>
-                        <li>Configuración centralizada de Bob</li>
-                    </ul>
-                    <div class="code-block" style="font-size: 0.72em; white-space: pre-line;">
-# custom_modes.yaml
-modes:
-  - name: "Custom Mode"
-    slug: "custom"
-    description: "..."
-                    </div>
-                </div>
-                <div class="card" style="padding: 16px;">
-                    <div class="icon" style="font-size: 1.6em; margin-bottom: 8px;">⚡</div>
-                    <h3 style="font-size: 0.95em; margin-bottom: 6px;">~/.bob/skills/</h3>
-                    <p style="font-size: 0.82em; margin-bottom: 6px;"><strong>Skills Especializadas</strong></p>
-                    <ul style="font-size: 0.8em; margin-bottom: 8px;">
-                        <li>Carpetas con skills personalizadas</li>
-                        <li>Archivo <code>SKILL.md</code> define la skill</li>
-                        <li>Capacidades reutilizables</li>
-                        <li>Ejemplo: <code>vulnerabilities/SKILL.md</code></li>
-                    </ul>
-                    <div class="code-block" style="font-size: 0.72em; white-space: pre-line;">
-skills/
-  └── vulnerabilities/
-      └── SKILL.md
-                    </div>
-                </div>
-            </div>
-            <div class="demo-section" style="padding: 16px;">
-                <h3 style="margin-bottom: 10px;">💡 Estructura Real de ~/.bob/</h3>
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: start;">
-                    <div class="code-block" style="font-size: 0.85em; white-space: pre; text-align: left; background: var(--code-bg); color: var(--code-text); padding: 16px; margin: 0;">
-.bob/
-├── rules/
-│   └── concise-completion-rule.md
-├── settings/
-│   ├── custom_modes.yaml
-│   └── mcp_settings.json
-└── skills/
-    └── vulnerabilities/
-        └── SKILL.md
-                    </div>
-                    <div style="padding: 14px; background: var(--highlight-bg); border-radius: 8px;">
-                        <p style="font-size: 0.9em;"><strong>📌 Nota:</strong> Los modos se definen en <code>custom_modes.yaml</code>, las skills en carpetas dentro de <code>skills/</code> con un archivo <code>SKILL.md</code>, y las rules son archivos <code>.md</code> en <code>rules/</code></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Slide 10: Recursos y Artículos -->
+        <!-- Slide 9: Recursos y Artículos -->
         <div class="slide" style="justify-content: space-between;">
             <h2 style="margin-bottom: 18px;">Recursos y Artículos 📚</h2>
             <div style="text-align: center; margin-bottom: 20px; padding: 16px 20px; background: var(--highlight-bg); border-radius: 10px;">
@@ -1167,7 +1084,7 @@ skills/
             </div>
         </div>
 
-        <!-- Slide 11: Preguntas y Conclusión -->
+        <!-- Slide 10: Preguntas y Conclusión -->
         <div class="slide">
             <h2>Conclusión y Preguntas 🎉</h2>
             <div class="highlight">
@@ -1192,7 +1109,7 @@ skills/
     </button>
 
     <div class="slide-counter">
-        <span id="currentSlide">1</span> / <span id="totalSlides">11</span>
+        <span id="currentSlide">1</span> / <span id="totalSlides">10</span>
     </div>
 
     <div class="navigation">
